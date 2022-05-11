@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="States">
+      <UniqueIdentifier>{1c58992d-9e4b-4845-8f5c-7ad0d51f4dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{2c8dcde4-178a-4cd6-be46-3ab54728140a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{f329211e-649a-4cdd-b478-0205d19f38ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="State.ixx">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.ixx">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.ixx">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginState.ixx">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey.ixx">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Balloon.ixx">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.ixx">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.ixx">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.ixx">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.ixx">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.ixx">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkeyStandard.ixx">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkeyNinja.ixx">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkeySniper.ixx">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.ixx">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveManager.ixx">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.ixx">
+      <Filter>Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
